@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-4.6.2-dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div
+          class="collapse navbar-collapse d-flex justify-content-between"
+          id="navbarSupportedContent"
+        >
+        <h3 >FreeWill</h3>
+
+          <form class="d-flex mx-auto w-30">
+            <input
+              class="form-control me-2 flex-grow-1"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-dark me-2 d-xs-none">
+              Login
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-warning d-xs-none"
+              onclick="location.href='sign-up.html'"
+            >
+              Sign-up
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      <!-- sidenav -->
+      <div class="col-md-2">
+        <ul>
+          <li>
+            <a href="/FQAsoumu.html" class="bi bi-people-fill"> 総務・人事 </a>
+          </li>
+
+          <li>
+            <a href="/FQAkeiri.html" class="bi bi-bank"> 経理・経費 </a>
+          </li>
+
+          <li>
+            <a href="/FQAhomu.html" class="bi bi-shield-check"> 法務 </a>
+          </li>
+
+          <li>
+            <a href="/FQAIT.html" class="bi bi-person-gear"> ITサポート</a>
+          </li>
+
+          <li>
+            <a href="/FQAfukuri.html" class="bi bi-gift"> 福利・研修</a>
+          </li>
+
+          <li>
+            <a href="/FQAhoka.html" class="bi bi-three-dots"
+              >他のよくある質問</a
+            >
+          </li>
+        </ul>
+      </div>
+
+     
+      <div class="col-md-10">
+        <section>
+          <div class="soumupage-text">
+            <ul>
+              <li><a href="/index.html">HOME</a></li>
+              <li>></li>
+              <li><a href="/FQA.html">FQA</a></li>
+              <li>></li>
+              <li><a href="#">福利・研修</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <div class="soumumenu mx-auto">
+            <div class="soumutitle">福利・研修</div>
+
+            <details>
+              <summary>福利厚生</summary>
+              <div class="kyuka">
+                <p>
+                  ・会社が提供する福利厚生の内容は？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+                <p>
+                  ・健康診断や社内イベントのスケジュールは？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+                <p>
+                  ・住宅手当や交通費補助はあるか？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>研修・キャリア開発</summary>
+              <div class="kyuka">
+                <p>
+                  ・社内研修プログラムはあるか？受講方法は？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+                <p>
+                  ・業務に関する外部研修や資格取得の支援制度は？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+                <p>
+                  ・人事評価の基準やキャリアパスの設計について？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+              </div>
+            </details>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- footer 始まり -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-2 text-body-secondary"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link px-2 text-body-secondary"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="file.html" class="nav-link px-2 text-body-secondary"
+              >File</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/FQA.html" class="nav-link px-2 text-body-secondary"
+              >FQA</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="sign-up.html" class="nav-link px-2 text-body-secondary"
+              >Sign-up</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+    </div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="/js/script.js"></script>
+</html>

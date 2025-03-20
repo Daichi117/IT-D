@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-4.6.2-dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div
+          class="collapse navbar-collapse d-flex justify-content-between"
+          id="navbarSupportedContent"
+        >
+        <h3 >FreeWill</h3>
+
+          <form class="d-flex mx-auto w-30">
+            <input
+              class="form-control me-2 flex-grow-1"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-dark me-2 d-xs-none">
+              Login
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-warning d-xs-none"
+              onclick="location.href='sign-up.html'"
+            >
+              Sign-up
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      <!-- sidenav -->
+      <div class="col-md-2">
+        <ul>
+          <li>
+            <a href="/FQAsoumu.html" class="bi bi-people-fill"> 総務・人事 </a>
+          </li>
+
+          <li>
+            <a href="/FQAkeiri.html" class="bi bi-bank"> 経理・経費 </a>
+          </li>
+
+          <li>
+            <a href="/FQAhomu.html" class="bi bi-shield-check"> 法務 </a>
+          </li>
+
+          <li>
+            <a href="/FQAIT.html" class="bi bi-person-gear"> ITサポート</a>
+          </li>
+
+          <li>
+            <a href="/FQAfukuri.html" class="bi bi-gift"> 福利・研修</a>
+          </li>
+
+          <li>
+            <a href="/FQAhoka.html" class="bi bi-three-dots"
+              >他のよくある質問</a
+            >
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="col-md-10">
+        <section>
+          <div class="soumupage-text">
+            <ul>
+              <li><a href="/index.html">HOME</a></li>
+              <li>></li>
+              <li><a href="/FQA.html">FQA</a></li>
+              <li>></li>
+              <li><a href="#">ITサポート</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <div class="soumumenu mx-auto">
+            <div class="soumutitle">ITサポート</div>
+
+            <details>
+              <summary>アカウント・アクセス権限</summary>
+              <div class="kyuka">
+                <p>
+                  ・社用メール、VPN、業務システムのアカウント申請方法は？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+                <p>
+                  ・ログインできない場合の対処方法は？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+                <p>
+                  ・システムのアクセス権限を申請・変更するには？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>デバイス関連</summary>
+              <div class="kyuka">
+                <p>
+                  ・PC、スマートフォン、オフィス用品の申請方法は？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+                <p>
+                  ・デバイスの故障・紛失時の対応は？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+                <p>
+                  ・リモートワークに必要な機器や設定は？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>技術サポート</summary>
+              <div class="kyuka">
+                <p>
+                  ・ITサポート部門に問い合わせるには？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+                <p>
+                  ・ネットワーク障害やソフトウェアのクラッシュ時の対処方法は？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+                <p>
+                  ・業務ツールのトレーニングやマニュアルはあるか？
+                  <a href="#"
+                    ><img src="images/file.svg" class="kyukaicon"
+                  /></a>
+                </p>
+              </div>
+            </details>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- footer 始まり -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-2 text-body-secondary"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link px-2 text-body-secondary"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="file.html" class="nav-link px-2 text-body-secondary"
+              >File</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/FQA.html" class="nav-link px-2 text-body-secondary"
+              >FQA</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="sign-up.html" class="nav-link px-2 text-body-secondary"
+              >Sign-up</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+    </div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="/js/script.js"></script>
+</html>
